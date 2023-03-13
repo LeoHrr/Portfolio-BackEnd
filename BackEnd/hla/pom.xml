@@ -8,13 +8,13 @@
 		<version>3.0.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.portfolio</groupId>
+	<groupId>com.portfolioap</groupId>
 	<artifactId>hla</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>hla</name>
 	<description>Portfolio</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>19</java.version>
 	</properties>
 	<dependencies>
 		<dependency>

@@ -1,4 +1,4 @@
-package com.portfolio.hla;
+package com.portfolioap.hla;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
