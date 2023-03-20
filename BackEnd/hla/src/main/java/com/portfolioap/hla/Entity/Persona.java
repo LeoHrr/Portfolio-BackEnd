@@ -9,11 +9,13 @@ import jakarta.validation.constraints.Size;
 import lombok.Getter;
 import lombok.Setter;
 
+
+
 /**
  *
  * @author Leo
  */
-@Getter @Setter
+    @Getter @Setter
 @Entity
 public class Persona {
     @Id
