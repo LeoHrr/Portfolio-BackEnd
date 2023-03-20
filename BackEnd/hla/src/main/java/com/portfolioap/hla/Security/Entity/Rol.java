@@ -1,22 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.portfolioap.hla.Security.Entity;
 
 import com.portfolioap.hla.Security.Enums.RolNombre;
-import jakarta.persistence.Entity;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.validation.constraints.NotNull;
-import org.springframework.data.annotation.Id;
+import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.validation.constraints.NotNull;
 
-/**
- *
- * @author Leo
- */
 @Entity
 public class Rol {
     @Id
@@ -26,15 +18,13 @@ public class Rol {
     @Enumerated(EnumType.STRING)
     private RolNombre rolNombre;
     
-    //constructor
-    
-    public Rol(){
-        
+    public Rol() {
     }
 
     public Rol(RolNombre rolNombre) {
         this.rolNombre = rolNombre;
     }
+    
 
     public int getId() {
         return id;

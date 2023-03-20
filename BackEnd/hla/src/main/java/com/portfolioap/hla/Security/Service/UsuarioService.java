@@ -6,8 +6,8 @@ package com.portfolioap.hla.Security.Service;
 
 import com.portfolioap.hla.Security.Entity.Usuario;
 import com.portfolioap.hla.Security.Repository.iUsuarioRepository;
-import jakarta.transaction.Transactional;
 import java.util.Optional;
+import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -26,11 +26,11 @@ public class UsuarioService {
     }
     
     public boolean existsByNombreUsuario(String nombreUsuario){
-        return iusuarioRepository.existByNombreUsuario(nombreUsuario);
+        return iusuarioRepository.existsByNombreUsuario(nombreUsuario);
     }
     
     public boolean existsByEmail(String email){
-        return iusuarioRepository.existByEmail(email);
+        return iusuarioRepository.existsByEmail(email);
     }
     
     public void save(Usuario usuario){

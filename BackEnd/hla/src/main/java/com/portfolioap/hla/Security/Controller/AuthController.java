@@ -13,9 +13,9 @@ import com.portfolioap.hla.Security.Enums.RolNombre;
 import com.portfolioap.hla.Security.Service.RolService;
 import com.portfolioap.hla.Security.Service.UsuarioService;
 import com.portfolioap.hla.Security.jwt.JwtProvider;
-import jakarta.validation.Valid;
 import java.util.HashSet;
 import java.util.Set;
+import javax.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -38,7 +38,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin
+@CrossOrigin(origins = {"http://localhost:4200"})
 public class AuthController {
     @Autowired
     PasswordEncoder passwordEncoder;
