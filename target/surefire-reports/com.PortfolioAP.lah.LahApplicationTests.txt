@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.PortfolioAP.lah.LahApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.385 s - in com.PortfolioAP.lah.LahApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.149 s - in com.PortfolioAP.lah.LahApplicationTests
